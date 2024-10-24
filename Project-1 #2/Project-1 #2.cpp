@@ -186,7 +186,7 @@ void startGame() {
 	do
 	{
 		RestartScreen();
-		stGameResults Result=PlayGame(RoundGame("plase Enter Do you want play in 1 to 10 ? ",1,10));
+		stGameResults Result=PlayGame(RoundGame("\n\n\n  plase Enter Do you want play in 1 to 10 ? ",1,10));
 		ShowGameOverScreen();
 		PrintAllGames(Result);
 		cout << "Do you Play Again ? Y/N? ";cin >> PlayAgain;
